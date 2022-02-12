@@ -1,0 +1,40 @@
+/* --------------------- main -------------------------*/
+/* --------------------- popular-text -------------------------*/
+
+
+.popular {
+    background-color: #262A33;
+    color: white;
+    padding: 60px 60px 0px 60px;
+    font-size: 12px;
+    font-weight: 900;
+    
+}
+
+.popular h1 {
+    overflow: hidden;
+    text-align: center;
+}
+  
+.popular h1:before,
+.popular h1:after {
+    background-color: #7c7a79;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+    opacity: 0.3;
+}
+  
+.popular h1:before {
+    right: 50px;
+    margin-left: -50%;
+}
+  
+.popular h1:after {
+    left: 50px;
+    margin-right: -50%;
+}
+

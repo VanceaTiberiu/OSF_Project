@@ -1,0 +1,111 @@
+/* --------------------- carousel -------------------------*/
+
+
+
+.splide__track {
+    border-radius: 10px;
+}
+
+.splide-image {
+    width: 100%;
+    height: auto;
+    
+}
+  
+.splide__slide {
+    position: relative;
+}
+  
+.splide-content {
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 50px;
+    
+}
+  
+.splide-content1 {
+    text-align: left;
+}
+  
+.splide-content2 {
+    text-align: center;
+}
+  
+.splide-content3 {
+    text-align: right;
+}
+  
+.splide-pagination {
+    margin-bottom: 20px;
+}
+  
+.splide-bullet {
+    margin: 10px;
+  
+}
+  
+.splide-bullet.is-active {
+    background: transparent;
+    border: 2px solid #fff;
+}
+  
+.splide-title {
+    font-size: 48px;
+    margin-bottom: 100px;
+
+}
+  
+.splide-paragraph {
+
+    color: white;
+    margin: 50px 0;
+    font-size: 14px;
+
+}
+  
+.splide-button {
+    display: inline-block;        
+    background-color: transparent;
+    height: 40px;
+    border: 1px solid  white;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    font-weight: 300;
+    cursor: pointer;
+    text-align: center;
+    
+
+    &:hover {
+        color: black;
+        background: white;
+    }
+
+}
+  
+  
+
+
+  
+.splide-bullet--3 {
+    margin: 5px;
+  
+}
+  
+.splide-bullet--3.is-active {
+    background: transparent;
+    border: 2px solid #fff;
+}
+
+.splide-bullet--4 {
+    margin: 5px;
+  
+}
+  
+.splide-bullet--4.is-active {
+    background: transparent;
+    border: 2px solid black;
+}

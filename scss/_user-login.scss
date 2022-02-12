@@ -1,0 +1,306 @@
+/* Full-width input fields */
+input[type=email], input[type=password], #id_password, #id_password1 {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.modal-flex {
+  display: flex;
+  justify-content: space-between;
+
+  
+}
+
+
+.container-modal {
+
+  position: relative;
+
+  a {
+    color: #84bc22;
+    font-size: 12px;
+    
+    &:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+
+  i {
+    position: absolute;
+    top: 38px;
+    right: 20px;
+  }
+ 
+}
+
+.modal-center {
+  text-align: center;
+  
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal, .modal1 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 11; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 30%; /* Could be more or less, depending on screen size */
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 8px;
+  text-align: left;
+  color: #45413e;
+
+  h1 {
+    font-size: 30px;
+    margin: 10px 0 40px 0;
+    color: #46433E;
+    text-align: center;
+  }
+}
+
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  
+}
+
+
+
+
+
+
+// @media screen and(max-width: 768px) {
+//   .filter-results .item:nth-child(n + 4),
+//   .products--popular .item:nth-child(n + 4) {
+//     display: none;
+//   }
+//   .products--popular .more {
+//     display: none !important;
+//   }
+// }
+// .scroll-top {
+//   margin-top: 50px;
+// }
+// @media screen and (min-width: 769px) {
+//   .scroll-top {
+//     display: none;
+//   }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .modal {
+//   width: 100vw;
+//   height: 100vh;
+// }
+
+// .modal-content {
+//   width: 100%;
+//   background-color: #ffffff;
+//   border-radius: 7px;
+//   padding: 48px 0;
+//   margin: 0;
+// }
+
+// .modal-header, .modal-footer {
+//   border: none;
+//   display: flex;
+//   flex-direction: column;
+//   padding: 0;
+//   margin: 0;
+// }
+
+// .modal-title {
+//   color: #45413e;
+//   font-size: 30px;
+//   font-weight: 900;
+// }
+
+// .modal-body {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   padding: 0;
+//   margin: 40px 25px;
+// }
+
+// .md-form {
+//   width: 100%;
+// }
+
+// .md-form label {
+//   color: #45413e;
+//   font-size: 14px;
+//   font-weight: 600;
+// }
+
+// .form-control {
+//   width: 100%;
+//   height: 36px;
+//   border: 2px solid #d7d7d7;
+//   border-radius: 25px;
+//   padding: 0 0 0 15px;
+// }
+
+// .modal-footer button {
+//   width: 171px;
+//   height: 36px;
+//   border: 2px solid #84bc22;
+//   background-color: #84bc22;
+//   border-radius: 25px;
+//   text-transform: uppercase;
+//   color: #ffffff;
+//   font-size: 14px;
+// }
+
+// .modal-footer>button:hover {
+//   border: 2px solid #84bc22;
+//   background-color: #ffffff;
+//   color: #84bc22;
+// }
+
+// .close {
+//   display: none;
+// }
+
+// .green-label {
+//   color: #84bc22;
+//   font-size: 12px;
+//   letter-spacing: 0.6px;
+// }
+
+// .password-container {
+//   position: relative;
+// }
+
+// .show-password {
+//   position: absolute;
+//   bottom: 6px;
+//   right: 12px;
+//   border: none;
+//   background-color: #ffffff;
+// }
+
+
+
+
+
+
+
+
+// .modal-content {
+//     border-radius: 7px !important;
+//     background-color: #ffffff;
+//     max-height:530px;
+//     .modal-body {
+//       padding-bottom: 0;
+//       #defaultForm-pass {
+//         font-size: 24px;
+//         position: relative;
+//       }
+//       #defaultForm-email {
+//         font-size: 24px;
+//       }
+//       .forgot-password {
+        
+//         float:right;
+//         margin-bottom: 15px;
+//       }
+//     }
+//     .modal-header {
+//       color: #45413e;
+      
+//       font-size: 30px;
+//       font-weight: 700;
+//       border-bottom: none;
+//     }
+//   }
+//   .md-form input {
+//     border: 1px solid #ced4da !important;
+//     border-radius: 18px !important;
+//   }
+//   .modal-footer {
+//     border-top: none;
+//     button {
+//       width: 181px;
+//       border: 2px solid #84bc22;
+//       background-color: #84bc22 !important;
+//       border-radius: 30px;
+//     }
+//   }
+//   .modal-dialog {
+//     margin: 20vh auto 0px auto;
+//   }
+//   .no-account {
+//     text-align:center;
+//     margin-bottom:100px;
+//     a {
+//       color:#84bc22 !important;
+      
+//     }
+//   }
+
+//   .eye-icon{
+//   position:absolute;
+//   right:0;
+//   top:50%;
+//   transform: translate(-50%,-50%);
+//   }

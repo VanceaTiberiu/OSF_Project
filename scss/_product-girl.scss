@@ -1,0 +1,237 @@
+/* --------------------- product girl -------------------------*/
+
+.container-girl {
+    background-color: #F1EDEA;
+    height: auto;
+    margin: 0 auto;
+    color: #45413e;
+    font-size: 16px;
+    position: relative;
+    padding: 40px 60px 0px 60px;
+    font-weight: 500;
+   
+}
+
+.big {
+    width: 580px;
+    height: 600px;
+}
+
+.item-girl {
+    display: flex;
+    // gap: 40px;
+    padding-bottom: 126px;
+}
+
+.splide__track {
+    border-radius: 0;
+}
+
+.thumbnails {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto 0;
+    padding: 0;
+    gap: 10px;
+    
+}
+  
+.thumbnail {
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    list-style: none;
+    margin: 0 0.2rem;
+    cursor: pointer;
+    border: 1px solid #85BC23;
+    opacity: 0.3;
+}
+  
+.thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+.thumbnail.is-active {
+    opacity: 1;
+}
+
+.item-404--girl {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: left;
+    padding: 50px 30px 20px 50px;
+    width: 60%;
+    line-height: 24px;
+
+    h2 {
+        font-size: 48px;
+        font-weight: 900;
+        color: #45413e;
+        
+    }
+
+    button {
+        font-size: 14px;
+    }
+
+    a {
+        color: #85BC23;
+    }
+}
+
+.btn-girl {
+    display: flex;        
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: transparent;
+    height: 40px;
+    border: 2px solid #E8E2D6;
+    border-radius: 30px;
+    color: black;
+    font-weight: 300;
+    width: 150px;
+    gap: 10px;
+
+}
+
+
+.button-girl {
+    display: inline-block;   
+    justify-content: center;
+    text-align: center;
+    align-items: center;     
+    background-color: #85BC23;
+    height: 40px;
+    border: 1px solid  #85BC23;
+    border-radius: 30px;
+    color: white;
+    font-weight: 300;
+    cursor: pointer;
+    width: 150px;
+    
+
+    &:hover {
+        color: #85BC23;
+        background: white;
+        border: 1px solid #85BC23
+    }
+
+}
+  
+
+.btn-flex {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.btn-girl1 {
+    display: flex;        
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: transparent;
+    height: 40px;
+    border: 2px solid #E8E2D6;
+    border-radius: 30px;
+    color: #999999;
+    font-weight: 900;
+    gap: 10px;
+
+}
+
+form {
+    padding: 0 8px;
+}
+
+.value-button {
+    display: inline-block;
+    margin: 0px;
+    width: 30px;
+
+    text-align: center;
+    vertical-align: middle;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.value-button:hover {
+    cursor: pointer;
+}
+
+form #decrease {
+    margin-right: -4px;
+    border-radius: 8px 0 0 8px;
+}
+
+form #increase {
+    margin-left: -4px;
+    border-radius: 0 8px 8px 0;
+}
+
+form #input-wrap {
+    margin: 0px;
+    padding: 0px;
+}
+
+input#number {
+    text-align: center;
+    border: none;
+    margin: 0px;
+    width: 24px;
+    height: 24px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#more {display: none;}
+
+#myBtn {
+    background-color: transparent;
+    color: #85BC23;
+    text-align: left;
+    font-size: 16px;
+     
+    &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
+
+.item-girl--share {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 40px;
+
+    p {
+        font-size: 14px;
+        color: #C7C7C7;
+    }
+}
+
+.girl-dots {
+
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 0;
+    gap: 20px;
+    border: none;
+    
+}

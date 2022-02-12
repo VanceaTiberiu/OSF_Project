@@ -1,0 +1,85 @@
+        /*---------------------------------------------- WELCOME ---------------------------------------------- */
+
+@import "body";
+@import "navigation-header";
+@import "dropdown-menu";
+@import "grid-section";
+@import "carousel";
+@import "main-popular-text";
+@import "main-products";
+@import "load-more";
+@import "banner";
+@import "slide-text-bottom";
+@import "slide-title-bottom";
+@import "featured-products";
+@import "benefits";
+@import "footer";
+@import "cookie";
+@import "user-login";
+
+
+        /*---------------------------------------------- 404 page ---------------------------------------------- */
+
+@import "404-breadcrumb";    
+@import "404-text";
+@import "404-container";
+
+
+
+        /*---------------------------------------------- services page ---------------------------------------------- */
+
+
+
+@import "services-breadcrumb";  
+@import "services-container";
+@import "services-products";
+
+ /*---------------------------------------------- product page---------------------------------------------- */
+
+
+@import "product-breadcrumb";
+@import "product-girl";
+@import "product-tab";
+
+
+/*---------------------------------------------- cart page---------------------------------------------- */
+
+
+@import "cart-container";
+
+
+/*---------------------------------------------- mobile --------------------------------------------- */
+
+
+@import "navigation-mobile";
+
+
+/*---------------------------------------------- media ---------------------------------------------- */
+
+@import "media";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      height: auto;
+    }
+  } */

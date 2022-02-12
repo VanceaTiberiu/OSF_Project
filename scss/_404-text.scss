@@ -1,0 +1,38 @@
+/* ---------------------404 text -------------------------*/
+
+.text-404 {
+    background-color: #F1EDEA;
+    color: #45413e;
+    padding: 0px 60px;
+    font-size: 24px;
+    
+    
+}
+
+.text-404 h1 {
+    overflow: hidden;
+    text-align: center;
+    font-weight: 900;
+}
+  
+.text-404 h1:before,
+.text-404 h1:after {
+    background-color: #7c7a79;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+    opacity: 0.1;
+}
+  
+.text-404 h1:before {
+    right: 30px;
+    margin-left: -50%;
+}
+  
+.text-404 h1:after {
+    left: 30px;
+    margin-right: -50%;
+}

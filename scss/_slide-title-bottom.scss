@@ -1,0 +1,36 @@
+.slide-title {
+    background-color: #262A33;
+    color: white;
+    padding: 0 380px 10px 380px;
+    font-size: 12px;
+    font-weight: 900;
+    
+    
+}
+
+.slide-title h1 {
+    overflow: hidden;
+    text-align: center;
+}
+  
+.slide-title h1:before,
+.slide-title h1:after {
+    background-color: white;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+    
+}
+  
+.slide-title h1:before {
+    right: 20px;
+    margin-left: -50%;
+}
+  
+.slide-title h1:after {
+    left: 20px;
+    margin-right: -50%;
+}

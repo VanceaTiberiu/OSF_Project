@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "New Product 1",
+        "image": "png/product1",
+        "price": 799,
+        "incart": 0
+    
+    },
+    {
+        "id": 2,
+        "name": "New Product 1",
+        "image": "png/product2",
+        "price": 129,
+        "incart": 0
+    
+    },
+    {
+        "id": 3,
+        "name": "New Product 1",
+        "image": "png/product3",
+        "price": 299,
+        "incart": 0
+    
+    },
+    {
+        "id": 4,
+        "name": "New Product 1",
+        "image": "png/product4",
+        "price": 659,
+        "incart": 0
+    
+    }
+   
+
+]
+

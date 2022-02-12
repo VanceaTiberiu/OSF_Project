@@ -1,0 +1,751 @@
+.toggle-button {
+    position: absolute;
+    top: 1.5rem;
+    left: 10px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #262A32;
+    border-radius: 10px;
+}
+
+
+
+///////////////////////////////////////////////////////////////////////////////////hjhj
+
+@media (max-width: 320px) {
+    .toggle-button {
+        display: flex;
+        
+    }
+
+    .bold-nav {
+        font-weight: 900;
+    }
+
+    .arrow::after {
+        display: none;
+    }
+
+    .none {
+        display: none;
+    }
+
+
+    .nav-primary--list li:hover .mega-box {
+        display: none;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .logo-img img {
+        top: 0;
+        left:0;
+        right:0;
+        
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        
+       
+    }
+
+    .container {
+        padding: 0;
+        height: 65px;
+        width: 100%;
+        
+    }
+
+
+    .logo_text-osf {
+        display: none;
+    }
+
+    .logo_text-academy {
+        display: none;
+    }
+
+    .nav-primary {
+        display: none;
+        
+        
+    }
+
+    .nav-secondary {
+        display: none;
+    }
+
+    .nav-primary--list__en {
+        display: none;
+    }
+
+
+    .header-wrapper  {
+        
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
+
+    .nav-wrapper {
+        padding: 0;
+        
+    }
+
+    .nav-primary--list {
+        
+        flex-direction: column;
+        background-color: #262A32;
+        
+        
+    }
+
+    .nav-primary--item {
+        
+        padding: 0;
+    }
+
+    .nav-primary ul {
+        position: absolute;
+        width: 100%;
+        padding: 0;
+    }
+
+    .nav-primary--list li {
+        width: 100%;
+        text-align: left;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        // font-weight: 900;
+        
+    }
+
+    .pozitie {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 80px;
+        padding-bottom: 10px;
+        
+    }
+    
+    .nav-primary--list li a {
+        margin: 10px;
+        color: white;
+        background-color: #262A32;
+    }
+
+    .nav-primary--list li button {
+        background: transparent;
+        margin: 0 10px;
+        color: white;
+    }
+
+    .nav-primary.active {
+        display: flex;
+    }
+
+    
+    
+    //submenu
+    
+    .has-dropdown {
+        position: relative;
+    }
+
+
+    .submenu {
+        position: absolute;
+        white-space: nowrap;
+
+        /* hide submenus */
+        opacity: 0;
+        transform: scaleY(0);
+        transform-origin: top center;
+    }
+
+    
+    .menu > li:hover > a,
+    .submenu > li:hover > a {
+    color: #85BC23;
+    // color: var(--hover-color);
+    }
+
+
+    //Arrows
+
+    .arrow1 {
+    width: 0.5em;
+    height: 0.5em;
+    display: inline-block;
+    vertical-align: middle;
+    border-left: 0.15em solid currentColor;
+    border-bottom: 0.15em solid currentColor;
+    transform: rotate(-45deg);
+    margin-top: -0.25em;
+    transition: transform 100ms ease-in-out;
+
+    }
+
+    /* Reveal  */
+
+    .menu > li:hover > a + .submenu,
+    .submenu > li:hover > a + .submenu {
+    opacity: 1;
+    transform: scaleY(1);
+
+    }
+
+    /* ANIMATE aRROWS */
+
+    .menu > li:hover > a > .arrow1,
+    .submenu > li:hover > a > .arrow1 {
+    transform: rotate(135deg);
+    
+    }
+    
+    header {
+        position: relative;
+        padding: 1.5em 2em;
+    }
+
+    .menu {
+        flex-flow: column;
+        position: absolute;
+        background: #262A32;
+        
+        
+    }
+
+    .menu > li:hover > a + .submenu,
+    .submenu > li:hover > a + .submenu {
+        position: relative;
+    }
+    
+    
+
+    /////////////nav bottom//////////
+
+    .nav-bottom {
+        background: #262A32;
+        display: flex;
+        justify-content: center;
+        padding: 20px 0 10px 0;
+
+        svg {
+        background: transparent;
+        opacity: 0.1;
+
+        &:hover {
+            color: #85BC23;
+            opacity: 0.7;
+        }
+
+        }
+    }
+   
+
+    .child {
+        background: transparent;
+    }
+    
+}
+
+///////////////////////////////////////////////////////////////////////////////////hjhj
+
+
+@media (min-width: 768px) and (max-width: 1279px) {
+    .toggle-button {
+        display: flex;
+        
+    }
+
+    .bold-nav {
+        font-weight: 900;
+    }
+
+    .arrow::after {
+        display: none;
+    }
+
+    .none {
+        display: none;
+    }
+
+
+    .nav-primary--list li:hover .mega-box {
+        display: none;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .logo-img img {
+        top: 0;
+        left:0;
+        right:0;
+        
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        
+       
+    }
+
+    .container {
+        padding: 0;
+        height: 65px;
+        width: 100%;
+        
+    }
+
+
+    .logo_text-osf {
+        display: none;
+    }
+
+    .logo_text-academy {
+        display: none;
+    }
+
+    .nav-primary {
+        display: none;
+        
+        
+    }
+
+    .nav-secondary {
+        display: none;
+    }
+
+    .nav-primary--list__en {
+        display: none;
+    }
+
+
+    .header-wrapper  {
+        
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
+
+    .nav-wrapper {
+        padding: 0;
+        
+    }
+
+    .nav-primary--list {
+        
+        flex-direction: column;
+        background-color: #262A32;
+        
+        
+    }
+
+    .nav-primary--item {
+        
+        padding: 0;
+    }
+
+    .nav-primary ul {
+        position: absolute;
+        width: 100%;
+        padding: 0;
+    }
+
+    .nav-primary--list li {
+        width: 100%;
+        text-align: left;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        // font-weight: 900;
+        
+    }
+
+    .pozitie {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 80px;
+        padding-bottom: 10px;
+        
+    }
+    
+    .nav-primary--list li a {
+        margin: 10px;
+        color: white;
+        background-color: #262A32;
+    }
+
+    .nav-primary--list li button {
+        background: transparent;
+        margin: 0 10px;
+        color: white;
+    }
+
+    .nav-primary.active {
+        display: flex;
+    }
+
+    //submenu
+    
+    //submenu
+    
+    .has-dropdown {
+        position: relative;
+    }
+
+
+    .submenu {
+        position: absolute;
+        white-space: nowrap;
+
+        /* hide submenus */
+        opacity: 0;
+        transform: scaleY(0);
+        transform-origin: top center;
+    }
+
+    
+    .menu > li:hover > a,
+    .submenu > li:hover > a {
+    color: #85BC23;
+    // color: var(--hover-color);
+    }
+
+
+    //Arrows
+
+    .arrow1 {
+    width: 0.5em;
+    height: 0.5em;
+    display: inline-block;
+    vertical-align: middle;
+    border-left: 0.15em solid currentColor;
+    border-bottom: 0.15em solid currentColor;
+    transform: rotate(-45deg);
+    margin-top: -0.25em;
+    transition: transform 100ms ease-in-out;
+
+    }
+
+    /* Reveal  */
+
+    .menu > li:hover > a + .submenu,
+    .submenu > li:hover > a + .submenu {
+    opacity: 1;
+    transform: scaleY(1);
+
+    }
+
+    /* ANIMATE aRROWS */
+
+    .menu > li:hover > a > .arrow1,
+    .submenu > li:hover > a > .arrow1 {
+    transform: rotate(135deg);
+    
+    }
+    
+    header {
+        position: relative;
+        padding: 1.5em 2em;
+    }
+
+    .menu {
+        flex-flow: column;
+        position: absolute;
+        background: #262A32;
+        
+        
+    }
+
+    .menu > li:hover > a + .submenu,
+    .submenu > li:hover > a + .submenu {
+        position: relative;
+    }
+    
+    
+
+    /////////////nav bottom//////////
+
+    .nav-bottom {
+        background: #262A32;
+        display: flex;
+        justify-content: center;
+        padding: 20px 0 10px 0;
+
+        svg {
+        background: transparent;
+        opacity: 0.1;
+
+        &:hover {
+            color: #85BC23;
+            opacity: 0.7;
+        }
+
+        }
+    }
+   
+
+    .child {
+        background: transparent;
+    }
+
+}
+
+///////////////////////////////////////////////////////////////////////////////////hjhj
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+    .toggle-button {
+        display: flex;
+        
+    }
+
+    .bold-nav {
+        font-weight: 900;
+    }
+
+    .arrow::after {
+        display: none;
+    }
+
+    .none {
+        display: none;
+    }
+
+
+    .nav-primary--list li:hover .mega-box {
+        display: none;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .logo-img img {
+        top: 0;
+        left:0;
+        right:0;
+        
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        
+       
+    }
+
+    .container {
+        padding: 0;
+        height: 65px;
+        width: 100%;
+        
+    }
+
+
+    .logo_text-osf {
+        display: none;
+    }
+
+    .logo_text-academy {
+        display: none;
+    }
+
+    .nav-primary {
+        display: none;
+        
+        
+    }
+
+    .nav-secondary {
+        display: none;
+    }
+
+    .nav-primary--list__en {
+        display: none;
+    }
+
+
+    .header-wrapper  {
+        
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
+
+    .nav-wrapper {
+        padding: 0;
+        
+    }
+
+    .nav-primary--list {
+        
+        flex-direction: column;
+        background-color: #262A32;
+        
+        
+    }
+
+    .nav-primary--item {
+        
+        padding: 0;
+    }
+
+    .nav-primary ul {
+        position: absolute;
+        width: 100%;
+        padding: 0;
+    }
+
+    .nav-primary--list li {
+        width: 100%;
+        text-align: left;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        // font-weight: 900;
+        
+    }
+
+    .pozitie {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 80px;
+        padding-bottom: 10px;
+        
+    }
+    
+    .nav-primary--list li a {
+        margin: 10px;
+        color: white;
+        background-color: #262A32;
+    }
+
+    .nav-primary--list li button {
+        background: transparent;
+        margin: 0 10px;
+        color: white;
+    }
+
+    .nav-primary.active {
+        display: flex;
+    }
+
+    //submenu
+    
+    .has-dropdown {
+        position: relative;
+    }
+
+
+    .submenu {
+        position: absolute;
+        white-space: nowrap;
+
+        /* hide submenus */
+        opacity: 0;
+        transform: scaleY(0);
+        transform-origin: top center;
+    }
+
+    
+    .menu > li:hover > a,
+    .submenu > li:hover > a {
+    color: #85BC23;
+    // color: var(--hover-color);
+    }
+
+
+    //Arrows
+
+    .arrow1 {
+    width: 0.5em;
+    height: 0.5em;
+    display: inline-block;
+    vertical-align: middle;
+    border-left: 0.15em solid currentColor;
+    border-bottom: 0.15em solid currentColor;
+    transform: rotate(-45deg);
+    margin-top: -0.25em;
+    transition: transform 100ms ease-in-out;
+
+    }
+
+    /* Reveal  */
+
+    .menu > li:hover > a + .submenu,
+    .submenu > li:hover > a + .submenu {
+    opacity: 1;
+    transform: scaleY(1);
+
+    }
+
+    /* ANIMATE aRROWS */
+
+    .menu > li:hover > a > .arrow1,
+    .submenu > li:hover > a > .arrow1 {
+    transform: rotate(135deg);
+    
+    }
+    
+    header {
+        position: relative;
+        padding: 1.5em 2em;
+    }
+
+    .menu {
+        flex-flow: column;
+        position: absolute;
+        background: #262A32;
+        
+        
+    }
+
+    .menu > li:hover > a + .submenu,
+    .submenu > li:hover > a + .submenu {
+        position: relative;
+    }
+    
+
+    /////////////nav bottom//////////
+
+    .nav-bottom {
+        background: #262A32;
+        display: flex;
+        justify-content: center;
+        padding: 20px 0 10px 0;
+
+        svg {
+        background: transparent;
+        opacity: 0.1;
+
+        &:hover {
+            color: #85BC23;
+            opacity: 0.7;
+        }
+
+        }
+    }
+   
+
+    .child {
+        background: transparent;
+    }
+
+
+}

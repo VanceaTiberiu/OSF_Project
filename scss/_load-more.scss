@@ -1,0 +1,33 @@
+
+.bt-bg {
+    background-color: #262A32;
+    text-align: center;
+    color: black;
+    padding: 0 60px 40px 60px;
+
+    .load-button {
+    display: inline-block;        
+    background-color: transparent;
+    height: 40px;
+    border: 1px solid  white;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 60px 10px 60px;
+    font-weight: 300;
+    cursor: pointer;
+    text-align: center;
+
+    &:hover {
+        color: black;
+        background: #85BC23;
+        border: none;
+    }
+
+    }
+
+    svg {
+        width: 14px;
+        margin-left: 10px;
+    }
+}
+

@@ -1,0 +1,43 @@
+/* --------------------- featured products -------------------------*/
+
+.splide-second {
+    background: #262A32;
+    padding: 0 40px;
+    
+}
+
+.splide-second1 {
+    background: #F1EDEA;
+    padding: 0 40px;
+}
+
+.splide-arrow {
+    top: -22px;
+    border-radius: 0;
+    
+}   
+
+.splide-prev {
+    left: 26%;
+}
+
+
+.splide-next {
+    right: 26%;
+}
+
+
+
+.product-image-slide {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    align-items: center;
+    height: 360px;
+    background-color: white;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    margin: 20px;
+    font-size: 16px;
+}
+

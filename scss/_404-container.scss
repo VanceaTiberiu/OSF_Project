@@ -1,0 +1,88 @@
+/* --------------------- 404 container -------------------------*/
+
+.container-404 {
+    background-color: #F1EDEA;
+    height: auto;
+    margin: 0 auto;
+    color: #45413e;
+    font-size: 16px;
+    position: relative;
+    padding: 40px 60px;
+    font-weight: 500; 
+    
+}
+
+.wrapper-404, .wrapper-404--product {
+    display: flex;
+    position: relative;
+    background-color: white;
+    
+}
+
+.item-404 {
+    display: flex;
+    justify-content: space-between;
+    
+
+    h1 {
+        color: #85BC23;
+        font-size: 113px;
+        font-weight: 900;
+        padding: 180px 60px 180px 130px;
+        z-index: 10;
+    }
+}
+
+.item-404--title {
+    
+
+    img {
+        position: absolute;
+        left: -50px;
+        bottom: 50px;
+        
+    }
+}
+
+.item-404--text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 20px 100px 20px 20px;
+    width: 60%;
+    margin: 40px 0;
+    line-height: 24px;
+
+    h2, h3 {
+        font-size: 24px;
+        font-weight: 900;
+        color: black;
+        margin-top: 30px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+
+    a {
+        color: #85BC23;
+    }
+}
+
+.btn-404 {
+    display: inline-block;        
+    background-color: transparent;
+    height: 40px;
+    border: 2px solid #E8E2D6;
+    border-radius: 30px;
+    color: black;
+    padding: 10px 30px 10px 30px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.search-404 {
+    display: flex;
+    justify-content: space-between;
+    
+}

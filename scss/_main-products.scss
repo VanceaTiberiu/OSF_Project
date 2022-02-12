@@ -1,0 +1,152 @@
+/* --------------------- main products -------------------------*/
+
+
+.product-container-1 {
+    background-color: #262A33;
+    display: inline-block;
+    height: auto;
+    margin: 0;
+    color: #45413e;
+    font-size: 16px;
+    position: relative;
+    padding: 40px 60px;
+    font-weight: 300; 
+    
+}
+
+.product-wrapper-1 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    
+}
+
+.product-image-1, .no-hover, 
+.no-hover--mobile, .no-hover--mobile1 {
+    position: relative;
+    width: 22%;
+    // width: 260px;
+    overflow: hidden;
+    align-items: center;
+    height: 380px;
+    background-color: white;
+    border-radius: 8px;
+    padding-bottom: 20px;
+    
+}
+
+.add-cart {
+    position: absolute;
+    bottom: 160px;
+    left: 30px;
+    transition: all 0.3 ease-in-out;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 99%;
+    opacity: 0;
+}
+
+.add-wish {
+    position: absolute;
+    bottom: 160px;
+    right: 30px;
+    background-color: white;
+    border-radius: 99%;
+    transition: all 0.3 ease-in-out;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.product-image-1::before {
+  display: block;
+  position: absolute;
+  height: 0%;
+  width: 100%;
+  bottom: 0;
+  transition: all 0.3s ease-in-out;
+  content: "";
+  background-image: linear-gradient(315deg, #3ee577 0%, #42fcdb 74%);
+  opacity: 0.8;
+}
+
+.product-image-1:hover::before {
+    height: 100%;
+}
+
+.product-image-1:hover  {
+    .cart, .wish{
+    opacity: 1;
+    padding: 30px;
+    }
+    
+}
+
+/* --------------------- no hover product -------------------------*/
+
+
+.product-2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    
+
+    a {
+        border: 1px solid rgb(216, 206, 206);
+        border-radius: 20px 0 0 20px;
+        padding: 8px;
+    }
+
+    button {
+        border: 1px solid rgb(216, 206, 206);
+        border-radius: 0px 20px 20px 0px;
+        padding: 8px;
+    }
+}
+
+.button-cart {
+    color: black;
+    background-color: white;
+
+    &:hover {
+        color: white;
+        background-color: #85BC23;
+        cursor: pointer;
+    }
+
+}
+
+
+.bg-1 {
+    background-image: url('../png/product8.png');  
+    background-size: cover;
+    color: white;
+    .bg-text {
+        position: absolute;
+        bottom: 10%;
+        text-align: justify;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        
+    }
+    
+    .bg-inline {
+        display: inline-flex;
+        gap: 10px;
+    }
+    
+}
+
+.bg-2 {
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('../png/product8.png');
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    opacity: 0.8;
+}
+
